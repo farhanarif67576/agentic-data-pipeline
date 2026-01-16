@@ -116,8 +116,8 @@ agentic-data-pipeline/
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/farhanarif67576/Hello-world.git
-cd Hello-world
+git clone https://github.com/farhanarif67576/agentic-data-pipeline.git
+cd agentic-data-pipeline
 
 # 2. Create virtual environment
 python3 -m venv .venv
