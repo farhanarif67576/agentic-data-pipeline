@@ -31,7 +31,7 @@ class Config:
     OLLAMA_RETRIES = int(os.getenv('OLLAMA_RETRIES', 3))
 
 default_args = {
-    'owner': 'Yusuf Ganiyu',
+    'owner': 'Farhan Arif',
     'depends_on_past': False,
     'retries': 2,
     'retry_delay': timedelta(minutes=1),

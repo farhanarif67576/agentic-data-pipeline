@@ -1,6 +1,6 @@
-# Self-Healing Sentiment Analysis Pipeline
+# Agentic Data Pipeline
 
-An end-to-end **self-healing data pipeline** built with Apache Airflow 3.x that performs sentiment analysis on Yelp reviews using local LLM inference with Ollama.
+An end-to-end **intelligent, self-correcting data pipeline** built with Apache Airflow 3.x that performs sentiment analysis on Yelp reviews using local LLM inference with Ollama.
 
 ![Python](https://img.shields.io/badge/Python-3.11+-blue.svg)
 ![Airflow](https://img.shields.io/badge/Apache%20Airflow-3.x-green.svg)
@@ -89,7 +89,7 @@ python scripts/batch_runner.py --total 5000000 --batch-size 1000 --parallel 5
 ## 📁 Project Structure
 
 ```
-self-healing-pipeline/
+agentic-data-pipeline/
 ├── dags/
 │   └── agentic_pipeline_dag.py   # Main Airflow DAG
 ├── scripts/
@@ -116,8 +116,8 @@ self-healing-pipeline/
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/YOUR_USERNAME/self-healing-pipeline.git
-cd self-healing-pipeline
+git clone https://github.com/farhanarif67576/Hello-world.git
+cd Hello-world
 
 # 2. Create virtual environment
 python3 -m venv .venv
@@ -303,7 +303,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👤 Author
 
-**Yusuf Ganiyu**
+**Farhan Arif**
 
 ## 🙏 Acknowledgments
 
